@@ -1,5 +1,5 @@
 # Function for testing GoF in SCR models
-scrgof <- function(object, nsamp = 1){
+scrgof <- function(object, nsamp = 1000){
   
 	require(spatstat)
 	
