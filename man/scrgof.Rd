@@ -8,7 +8,7 @@
 	Tests goodness-of-fit for SECR models, using Monte Carlo resampling methods to obtain the empirical distributions of fit statistics conditioned on realised activity centres.
 }
 \usage{
-scrgof(object, nsamp = 1000, maxperpoly = 100, renumber = FALSE)
+scrgof(object, nsamp = 1000)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
