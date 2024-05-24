@@ -1,0 +1,12 @@
+Package: scrgof
+Type: Package
+Title: Monte Carlo Resampling Methods for Spatial Capture-recapture
+        Models Fitted in Maximum Likelihood
+Version: 0.1.0
+Author: person("Yan Ru", "Choo", , "yrc2@st-andrews.ac.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-8852-7178"))
+Maintainer: Yan Ru Choo <yrc2@st-andrews.ac.uk>
+Description: scrgof provides a function to test the goodness-of-fit of spatial capture-recapture models fitted in maximum likelihood using the package secr. scrgof uses a Monte Carlo resampling approach to resample from a fitted model, conditioned on the activity centres of animals present in the population. Expected and observed summary statistics are calculated from the resampled activity centres and capture histories, and are used to calculate fit statistics to test the goodness-of-fit of the SCR model.
+License: CC0
+Encoding: UTF-8
+LazyData: true
