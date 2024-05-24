@@ -56,7 +56,7 @@ Yan Ru Choo
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-# Analysis of wolverine data from Royle et al (2014)
+# Analysis of Fort Drum bear data from Gardner et al (2010)
 
 library(secr)
 library(scrgof)
