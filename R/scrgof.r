@@ -55,7 +55,11 @@ scrgof <- function(object, nsamp = 1000){
     }
 		
 		if(length(tmp_detpar) > 1){
-			indcov <- as.factor(unlist(covariates(object$capthist)[object$hcov]))
+			if(!is.null(object$hcov)){
+				indcov <- as.factor(unlist(covariates(object$capthist)[object$hcov]))
+			} else {
+				indcov <- as.factor(unlist(covariates(object$capthist)[1]))
+			}
 			tmp_indcov_assign <- rmultinom(ntot - nind, 1, 
 				sapply(tmp_detpar, function(x) x$pmix))
 			tmp_indcov <- rep(NA, ntot - nind)
