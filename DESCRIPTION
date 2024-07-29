@@ -7,6 +7,6 @@ Inports: abind, MASS, secr, spatstat
 Author: Yan Ru Choo
 Maintainer: Yan Ru Choo <yrc2@st-andrews.ac.uk>
 Description: scrgof provides a function to test the goodness-of-fit of spatial capture-recapture models fitted in maximum likelihood using the package secr. scrgof uses a Monte Carlo resampling approach to resample from a fitted model, conditioned on the activity centres of animals present in the population. Expected and observed summary statistics are calculated from the resampled activity centres and capture histories, and are used to calculate fit statistics to test the goodness-of-fit of the SCR model.
-License: GPL-2.0-or-later
+License: GPL-3.0-or-later
 Encoding: UTF-8
 LazyData: true
