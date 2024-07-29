@@ -1,1 +1,6 @@
+export(scrgof)
 exportPattern("^[[:alpha:]]+")
+import(abind)
+import(MASS)
+import(secr)
+import(spatstat)
