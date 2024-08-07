@@ -1,4 +1,4 @@
-\name{scrgof}
+\name{FT_stat}
 \alias{FT_stat}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
