@@ -64,7 +64,7 @@ library(scrgof)
 data(bears)
 
 # Fitting capture history to a null model
-bear0 <- secr.fit(bearCH, buffer=1e5, detectfn=0)
+bear0 <- secr.fit(bearCH, buffer=1e4, detectfn=0)
 summary(bear0)
 # test GoF of bear0
 bear0_GoF <- scrgof(bear0, nsamp = 1000)
@@ -72,7 +72,7 @@ bear0_GoF <- scrgof(bear0, nsamp = 1000)
 bear0_GoF$scrgof_pval
 
 # Fitting capture history to a Mb model
-bearh2 <- secr.fit(bearCH, buffer=1e5, model=list(g0 ~ h2, sigma ~ h2))
+bearh2 <- secr.fit(bearCH, buffer=1e4, model=list(g0 ~ h2, sigma ~ h2))
 summary(bearh2)
 # test GoF of bearh2
 bearh2_gof <- scrgof(bearh2, nsamp = 1000)
