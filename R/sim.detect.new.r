@@ -316,9 +316,7 @@ sim.detect.new <- function (object, popnlist, maxperpoly = 100, renumber = FALSE
         }
 			
 				
-        w <- array(temp$value, dim = c(s, K, NR), dimnames = list(1:s, 
-            NULL, NULL))
-        w <- aperm(w, c(3, 1, 2))
+        w <- array(temp$value, dim = c(NR, s, K), dimnames = list(NULL, 1:s, NULL))
         w <- w[apply(w, 1, sum) > 0, , , drop = FALSE]
         class(w) <- "capthist"
         traps(w) <- session.traps
