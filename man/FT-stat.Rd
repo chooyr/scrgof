@@ -1,5 +1,5 @@
-\name{FT_stat}
-\alias{scrgof}
+\name{scrgof}
+\alias{FT_stat}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 	Freeman-Tukey test
